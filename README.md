@@ -1,4 +1,4 @@
 # O-overlay
-Create overlay of orienteering courses on background map.
+Create overlay of orienteering courses on a background map.
 
-Not needed anymorea as OCAD 2018 has this functionality.
+Not needed anymorea as OCAD 2018 has this functionality...
