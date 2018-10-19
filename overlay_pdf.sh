@@ -1,8 +1,8 @@
 #! /bin/bash
 
-bkgr=$(ls | grep .All.pdf)
-list=$(ls | grep .pdf | grep -v All.pdf | grep -v Overlay.pdf)
-output=$(echo $bkgr | sed s/All.pdf/Overlay.pdf/)
+bkgr=$(ls | grep All.pdf)
+list=$(ls | grep pdf | grep $1 | grep -v All.pdf | grep -v overlay.pdf)
+output=$(echo $bkgr | sed s/All.pdf/$1.overlay.pdf/)
 
 echo $bkgr
 echo $list
